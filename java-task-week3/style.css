@@ -1,0 +1,100 @@
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: 1em 23em;
+}
+
+#wrapper{
+    background:url(./img/textile-2918844__480.jpg);
+    padding: 3em 5em;
+}
+
+#small-wrapper{
+    border: 2px solid white;
+    text-align: center;
+    box-shadow: 0 7px 10px  black;
+}
+
+h2{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: 1.5em;
+    margin-bottom: 0;
+    letter-spacing: 3px;
+    
+    
+}
+
+h1{
+    color: rgb(71, 68, 68);
+    font-size: 180px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#row-butt{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 40px;
+    
+}
+#subt-butt{
+    color: #fff;
+    background-color: #0d2c54;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin: 12px 140px;
+    box-shadow: 0 3px 10px  black;
+    
+}
+
+#add-butt{
+    color: #fff;
+    background-color: #0d2c54;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin: 12px 160px;
+    box-shadow: 0 3px 10px  black;
+}
+
+#subt-butt:hover, #add-butt:hover{
+    cursor: pointer;
+    opacity: 95%;
+}
+
+#subt-butt:active, #add-butt:active{
+    transform: scale(0.9);
+}
+
+/**   javascript creates class for counter style**/
+
+.positive{
+    color: green;
+}
+
+
+@media screen and (max-width:768px) {
+   
+    body{
+        margin: 1em 5em;
+    }
+
+    #wrapper{
+        padding: 1em 2em;
+    }
+
+    #subt-butt{
+        margin: 12px 50px;
+    }
+
+    #add-butt{
+        margin: 12px 60px;
+    }
+}
